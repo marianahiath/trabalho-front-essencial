@@ -1,0 +1,79 @@
+header {
+    background-color: black;
+}
+
+.imagem-banner {
+    object-fit: cover;
+    object-position: 0 ;
+    width: 100vw;
+    height: 300px;
+}
+
+h2 {
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 5px;
+
+    color: #ffffff;
+    font-weight: lighter;
+    background-color: black;
+}
+
+.caixa-texto {
+    width: 80%;
+    height: 30%;
+    margin-top: 40px;
+}
+
+.texto {
+    padding: 2px;
+    margin: 10px 0;
+
+    font-size: 22px;
+    text-align: center;
+}
+
+iframe {
+    width: 20%;
+    height: auto;
+}
+
+.midias {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 60px;
+}
+
+.card {
+    width: 290px;
+    height: 300px;
+    padding: 0;
+}
+
+.cards {
+    margin: 20px;
+    box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.63);
+}
+
+.caixa-cards {
+    margin: 40px 0;
+}
+
+.card-imagens {
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: darkred;
+}
+
+a:hover {
+    color: darkred;
+    transition: 0.5s;
+}
+
+#texto-final {
+    margin: 50px;
+}
