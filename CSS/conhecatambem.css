@@ -74,15 +74,13 @@ iframe {
     color: antiquewhite;
 
     background-color: rgb(114, 114, 114);
-    box-shadow: 4px 4px rgba(56, 53, 53, 0.603);
+    box-shadow: 3px 3px rgba(56, 53, 53, 0.603);
 
-    padding: 6px;
+    padding: 3px;
 }
 
 .links:hover {
     color: antiquewhite;
+    transition: 0.5s;
+    transform: scale(1.2);
 }
-
-/* #texto-final {
-    margin: 50px;
-} */
