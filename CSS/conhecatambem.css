@@ -10,19 +10,24 @@ body {
 }
 
 h2 {
+    display: inline;
+    position: relative;
+    bottom: 20px;
+
     text-align: center;
-    padding: 10px;
+    padding: 20px;
     margin-bottom: 5px;
 
-    color: #ffffff;
+    color:antiquewhite;
     font-weight: lighter;
-    background-color: black;
+    background-color: rgb(114, 114, 114);
+    box-shadow: 10px 10px rgba(56, 53, 53, 0.603);
 }
 
 .caixa-texto {
     width: 80%;
     height: 30%;
-    margin-top: 40px;
+    margin-top: 50px;
 }
 
 .texto {
@@ -64,16 +69,20 @@ iframe {
     height: 100%;
 }
 
-a {
+.links {
     text-decoration: none;
-    color: darkred;
+    color: antiquewhite;
+
+    background-color: rgb(114, 114, 114);
+    box-shadow: 4px 4px rgba(56, 53, 53, 0.603);
+
+    padding: 6px;
 }
 
-a:hover {
-    color: darkred;
-    transition: 0.5s;
+.links:hover {
+    color: antiquewhite;
 }
 
-#texto-final {
+/* #texto-final {
     margin: 50px;
-}
+} */

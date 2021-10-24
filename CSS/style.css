@@ -145,7 +145,6 @@ button {
 }
 
 .img {
-
     width: 400px;
     height: 350px;
     margin: 20px;
@@ -180,8 +179,7 @@ ul>img {
     width: 100%;
 }
 
-footer {
-    width: 100vw;
+footer { 
     height: 200px;
     background: #8e9eab;
     background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);
