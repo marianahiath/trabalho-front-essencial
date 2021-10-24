@@ -4,7 +4,6 @@ body {
 
 .imagem-banner {
     object-fit: cover;
-    object-position: 0 ;
     width: 100vw;
     height: 300px;
 }
@@ -14,12 +13,12 @@ h2 {
     position: relative;
     bottom: 20px;
 
-    text-align: center;
     padding: 20px;
     margin-bottom: 5px;
 
     color:antiquewhite;
     font-weight: lighter;
+
     background-color: rgb(114, 114, 114);
     box-shadow: 10px 10px rgba(56, 53, 53, 0.603);
 }
@@ -81,6 +80,7 @@ iframe {
 
 .links:hover {
     color: antiquewhite;
-    transition: 0.5s;
+    font-weight: bold;
+    transition: 0.3s;
     transform: scale(1.2);
 }
